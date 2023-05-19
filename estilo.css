@@ -1,0 +1,253 @@
+ @import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Raleway:wght@200&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family:  'Raleway';
+    margin: 0;
+    padding: 0;
+ }
+
+ html{
+     scroll-behavior: smooth;
+ }
+
+ .classHeader{
+    background: rgb(46, 39, 41);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+ }
+
+ .classHeader header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px 20px;
+ }
+
+ .classHeader header .Nombre a{
+    font-family: 'Lora';
+    font-size: 36px;
+    color: rgb(135, 222, 215);
+    text-decoration: none;
+ }
+ 
+ .classHeader header ul{
+    display: flex;
+    list-style: none;
+ }
+
+ .classHeader header nav ul li a{
+    text-align: none;
+    color: rgb(231, 158, 198);
+    margin: 0 15px;
+    padding: 3px;
+    transition: .5s;
+    text-decoration: none;
+ }
+
+ .classHeader header nav ul li a:hover{
+    color: rgb(206, 77, 60);
+ }
+
+.nav-items{
+    background-color:palevioletred;
+    color: palevioletred;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+
+
+.sobreMi{
+    background: linear-gradient(#39BBDC, #FF3192);;
+    height: 110vh;
+    display: flex;
+    align-items: center;
+}
+
+.sobreMi .contenido{
+    padding: 20px;
+    max-width: 350px;
+    margin: auto;
+    border-radius: px;
+    text-align: center;
+    background-color:transparent;
+}
+
+.sobreMi .contenido img{
+    margin-top: 40px;
+    border: 10px solid #e996e9;
+    display: block;
+    width: 80%;
+    margin: auto;
+    border-radius: 100%;
+}
+
+.sobreMi .contenido h1{
+    margin-top: 20px;
+    font-size: 25px;
+    text-align: left;
+}
+
+.sobreMi p{
+    margin-top: 10px;
+    font-weight: normal;
+    text-align: left;
+    color: black;
+    font-weight: bold;
+}
+
+.sobreMi .lenguajes{
+   display: flex;
+   flex-direction: row; 
+   margin-top: 30px;
+   justify-content: space-around;
+   
+}
+
+.sobreMi .lenguajes img{
+    width: 30px;
+    height: 30px;
+    border: none;
+    display: block;
+
+}
+
+.proyectos{
+
+    background-color: rgb(46, 39, 41);
+    color: aquamarine;
+    padding: 50px 20px;
+}
+
+.proyectos .contenidoProyectos{
+    max-width: 1100px;
+    margin: auto;
+}
+
+.proyectos h2{
+    font-size: 40px;
+    text-align: center;
+    padding: 20px 0;
+    color: beige;
+    text-decoration: underline;
+}
+
+.proyectos .Imagenes{
+   margin-top: 30px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+
+.proyectos .Imagenes .Tps{
+    position: relative;
+    max-width: 340px;
+    height: fit-content;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.proyectos .Imagenes .Tps img{
+    width: 300px;
+    height: 250px;
+    display: block;
+}
+
+.proyectos h3{
+      margin-top: 20px;
+}
+
+.proyectos p{
+
+    padding: 20px 0;
+    color:#fffafa
+}
+.proyectos a{
+    
+    color:antiquewhite;
+}
+
+.contacto {
+    background-color: teal;
+    color: black;
+    padding: 50px, 55px;
+    justify-content: center;  
+
+}
+
+.contacto .contenidoContacto{
+    max-width: 1100px;
+    margin: auto;
+    text-align: center;
+
+}
+
+.contacto h2{
+    font-size: 38px;
+    text-align: center;
+    padding: 20px 0;
+    color: beige;
+    text-decoration: underline;
+    text-decoration-color: palevioletred;
+}
+
+.contacto .filas{
+    display: flex;
+}
+
+.contacto .columnas{
+    padding: 20px;
+    margin: auto;
+}
+
+.contacto .columnas input, .contacto .columnas textarea{
+    display: block;
+    border: none;
+    margin-bottom: 30px;
+    background-color: beige;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.contacto button{
+   cursor: pointer;
+   background-color: transparent;
+   border: 2px solid palevioletred;
+   width: fit-content;
+   display: block;
+   margin: 20px auto; 
+   padding: 10px 22px;
+   font-size: 15px;
+   color: antiquewhite;
+   position: relative;
+   z-index: 10;
+}
+
+ 
+.contacto .contenidoContacto .redesContacto a{
+    color: azure;
+   display: inline-block;
+   text-decoration: none;
+   border: 1px solid #fffafa;
+   border-radius: 100%;
+   width: 42px;
+   height: 42px;
+   line-height: 42px;
+   margin: 40px 5px;
+   font-size: 20px;
+   transition: .3s;
+}
+
+.contacto  .redesContacto a:hover{
+    background-color:#FF3192 ;
+}
+
+
